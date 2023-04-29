@@ -14,4 +14,4 @@ This repository contains a Python script for extracting track data from a Spotif
 - Replace the username, client_id, client_secret, and redirect_uri variables in the script with your own Spotify developer account information.
 
 ## Usage
-The script will extract the 50 (limited by Spotify) most recently saved tracks from the authenticated user's Spotify account and store the track data (including song name, artist name, song duration in miliseconds, popularity, song release date, date added to playlist, song duration in minutes, song duration in seconds) in a SQLite database. By default, the database will be named `my_favorite_songs.sqlite` and will be created in the same directory as the script.
+The script will extract the 50 (limited by Spotify) most recently saved tracks from the authenticated user's Spotify account and store the track data (including song name, artist name, song duration in miliseconds, popularity, song release date, date added to playlist, song duration in minutes, song duration in seconds) in a SQLite database. The database will be named `my_favorite_songs.sqlite` and will be created in the same directory as the script.
