@@ -4,7 +4,7 @@ This repository contains a Python script for extracting track data from a Spotif
 
 ## Prerequisites
 - `math`
-- `pandas
+- `pandas`
 - `sqlite3`
 - `spotipy`
 - `sqlalchemy`
