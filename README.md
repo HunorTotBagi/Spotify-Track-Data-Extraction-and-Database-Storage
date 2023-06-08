@@ -3,10 +3,17 @@
 This repository contains a Python script for extracting track data from a Spotify user's saved tracks and storing the data in a SQLite database using SQLAlchemy.
 
 ## Prerequisites
-- Python 3.x
-- `spotipy` library
-- `sqlalchemy` library
+- `math`
+- `pandas
+- `sqlite3`
+- `spotipy`
+- `sqlalchemy`
 - A Spotify developer account with a client ID and secret key
+
+You can install these libraries using `pip`:
+```
+pip install spotipy pandas sqlite SQLAlchemy
+```
 
 ## Setup
 - Clone the repository to your local machine.
